@@ -1,0 +1,71 @@
+.App {
+  text-align: center;
+}
+.card1{
+  width:100%;
+  display: flex;
+  justify-content: center;
+}
+  .card1 img {
+    width: 200px;
+    height: 200px;
+    border-radius: 5px;
+    margin: 0 auto;
+    box-shadow: 0 1px 1px rgba(0,0,0,0.11), 
+                0 2px 2px rgba(0,0,0,0.11), 
+                0 4px 4px rgba(0,0,0,0.11), 
+                0 8px 8px rgba(0,0,0,0.11), 
+                0 16px 16px rgba(0,0,0,0.11), 
+                0 32px 32px rgba(0,0,0,0.11);
+  }
+
+.card {
+  width: 100%;
+  padding: 20px;
+  display: flex;
+  /* flex-direction:column; */
+  border-radius: 5px;
+  flex-wrap: wrap;
+  /* box-shadow: 0 1px 6px -2px #000; */
+  /* background-color: rgb(197, 194, 194); */
+  
+}
+
+.card img {
+  width: 200px;
+  height: 200px;
+  border-radius: 5px;
+  margin: 0 auto;
+  box-shadow: 0 1px 1px rgba(0,0,0,0.11), 
+              0 2px 2px rgba(0,0,0,0.11), 
+              0 4px 4px rgba(0,0,0,0.11), 
+              0 8px 8px rgba(0,0,0,0.11), 
+              0 16px 16px rgba(0,0,0,0.11), 
+              0 32px 32px rgba(0,0,0,0.11);
+}
+.card p {
+  font-size: 1.4rem;
+  margin-bottom: 3px;
+}
+.data{
+  width: 35%;
+  box-shadow: 0 1px 1px rgba(0,0,0,0.11), 
+  0 2px 2px rgba(0,0,0,0.11), 
+  0 4px 4px rgba(0,0,0,0.11), 
+  0 8px 8px rgba(0,0,0,0.11), 
+  0 16px 16px rgba(0,0,0,0.11), 
+  0 32px 32px rgba(0,0,0,0.11);
+  margin-bottom: 5%;
+  background: rgb(230, 219, 174);
+  padding: 10px;
+  display:flex;
+  flex-direction: column;
+  margin: 5%;
+  border-radius: 10px;
+  transition: transform .2s;
+}
+.data:hover {
+  transform: scale(1.08);
+  opacity:.8
+}
+
