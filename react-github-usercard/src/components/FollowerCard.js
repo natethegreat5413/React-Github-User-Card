@@ -21,7 +21,7 @@ class FollowerCard extends React.Component {
         return(
             <div>
                 {data.map(follower => 
-                    <div className='follower'>
+                    <div className='card'>
                         <img src={follower.avatar_url} />
                         <h2>Login: {follower.login}</h2>
                         <p>Github URL: {follower.html_url}</p>

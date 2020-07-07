@@ -12,9 +12,8 @@ class UserCard extends React.Component {
                 // console.log(res.data)
                 this.setState({
                     user: res.data
-                })
             })
-
+        })
     }
     
 
@@ -22,7 +21,7 @@ class UserCard extends React.Component {
 
         const data = this.state.user
         return(
-            <div>
+            <div className='card'>
                 <img src={data.avatar_url} />
                 <h2>{data.name}</h2>
                 <h3>Login: {data.login}</h3>
